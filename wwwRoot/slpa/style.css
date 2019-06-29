@@ -1,0 +1,376 @@
+/*THIS IS THE NEW CSS FILE FOR SLPA.INFO UPDATED TO CSS3*/
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font: normal 18px Arial, Helvetica, sans-serif;
+	line-height: 1.6em;
+	background-color:#e8e8e8;
+	margin:0;
+	height:100%;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4{
+	display:inline;
+	color:#aa6900;
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding:15px;
+}
+
+a{
+	text-decoration: none;
+	color:#00660b;
+}
+
+a:hover{
+	color:red;
+}
+
+a:active{
+	color:green;
+}
+
+#heading{
+	width:100%;
+	border-bottom:5px #000;
+	background-image: url('index_files/topback.jpg');
+}
+
+#heading img{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+	display: block-inline;
+}
+
+.clr:after {
+	content: ".";
+	display: block;
+	clear:both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clr{
+	clear:both;
+}
+
+.menu{
+	position: sticky;
+	width: 100%;
+	left: 0px;
+	font-size:20px;
+	line-height:50px;
+}
+
+.menu li{
+	list-style:none;
+	text-align:center;
+}
+
+.menu ul{
+	padding: 0;
+	margin: 0;
+}
+
+#active{
+	background-color:#e8e8e8;
+	color:#333;
+	border-bottom: #295108 solid 5px;
+}
+
+.button{
+	background-color:#333;
+	color:#fff;
+	display:block;
+	width: 11.11%;
+	padding:10px 15px;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	border-bottom: #333 solid 5px;
+	box-shadow: 0 4px 2px -2px grey;
+}
+
+.button:hover{
+	background:#000;
+	color:#fff;
+	border-bottom: #000 solid 5px !important;
+}
+
+.button:active {
+	background:#295108; 
+}
+
+.para {
+	width:85%;
+	position: relative;
+	margin: 150px auto 40px auto;
+}
+
+.para li{
+	list-style-image: url('index_files/bullet.png');
+	line-height:1.8em;
+}
+
+#moon{
+	border:15px #e8e8e8 solid;
+}
+
+.block{
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border-bottom: 10px solid #000;
+
+}
+
+.halfimg{
+	position: relative;
+	float:left;
+	width: 50%;
+	box-sizing:border-box;
+	padding: 10px;
+}
+
+.thirdimg{
+	position: relative;
+	float:left;
+	width: 33.3%;
+	box-sizing:border-box;
+	border: 1px solid #aaa;
+	padding: 10px;
+}
+
+.quarterimg{
+	position: relative;
+	float:left;
+	width: 25%;
+	box-sizing:border-box;
+	border: 1px solid #aaa;
+	padding: 10px;
+}
+
+.sixthimg{
+	position: relative;
+	float:left;
+	width: 16.6%;
+	height:300px;
+	box-sizing:border-box;
+	border: 1px solid #aaa;
+	padding: 5px;
+}
+
+.sixthimg img{
+	width:80%;
+}
+
+.form label{
+	display:block;
+	padding-top:20px;
+}
+
+.form input[type="text"]{
+	padding:5px;
+	width: 50%;
+}
+
+.form input[type="text"]:focus{
+	background-color: #95d8d6;
+}
+
+.form textarea{
+	width:80%;
+	height: 150px;
+	box-sizing: border-box;
+	resize: none;
+}
+
+.submit{
+	padding: 15px 20px;
+	background-color:#ccc;
+	margin-bottom: 45px;
+	text-decoration: none;
+	border: none;
+
+}
+
+#footer{
+	position:absolute;
+	width: 100%;
+	text-align:center;
+	background-image: url('index_files/back.jpg');
+	padding:15px 0;
+	color:#fff;
+	text-shadow: 1px 1px 0px #000;
+}
+
+#footer li{
+	list-style:none;
+	padding:5px;
+	list-style:none;
+	display:inline;
+}
+
+#footer a{
+	color:#39c120;
+}
+
+#footer a:hover{
+	color:#c1ab20
+}
+
+
+/* Slideshow Attributes */
+
+.container:img {
+	vertical-align: middle;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+/*Slideshow container*/
+.container {
+	position: relative;
+}
+
+
+/*Hide images by default*/
+.mySlides{
+	display: block;
+	margin: auto;	
+	height: 600px;
+	overflow:hidden;
+	background-color: #444;
+	padding: 0;
+}
+
+#main {
+	margin: auto;
+}
+
+/*Add pointer over thumbnail*/
+.cursor{
+	cursor:pointer;
+}
+
+/*Next and previous buttons*/
+.prev, .next{
+	cursor:pointer;
+	height: 600px;
+	width: auto;
+	padding: 290px 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+/*Position the next button to the right*/
+.next{
+	border-radius: 3px 0 0 3px;
+	position:absolute;
+	right: 0;
+	z-index: 2;
+}
+
+.prev {
+	position: absolute;
+	left: 0;
+	z-index: 2;
+}
+
+/*On hover add black background*/
+.prev:hover, .next:hover{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Container for image text*/
+.caption-container{
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+}
+
+.row {
+	width: 100%;
+	height: 100%;
+	background-color: #ccc;
+	margin: auto;
+	white-space: wrap;
+	display: none;
+	padding: 8px 
+}
+
+
+/*Six columns side by side*/
+.column {
+	width: 16.3%;
+	display: inline-block;
+	padding: 0 4px;
+	box-sizing:border-box;
+}
+
+.column img{
+	margin-top: 8px;
+	vertical-align: middle;
+	max-height: 150px;
+	overflow: hidden;
+}
+
+
+/*Transparency for thumbnails*/
+.demo:hover {
+	animation: hov .5s forwards;
+
+}
+
+@keyframes hov {
+	from {opacity: 1;}
+		to {opacity: .4;}
+}
+
+.active {
+	opacity: .7;
+}
+
+.collapse {
+	width: 100%;
+	padding: 10px 0;
+	background-color: #999;
+}
+
+.shut {
+	font-size: 30px;
+	font-weight: bold;
+	color: #222;
+	padding: 0 30px;
+}
+
+.shut:hover {
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px) {
+	.quarterimg{
+		width: 50%;
+		overflow: auto;
+	}
+
+	.halfimg {
+		width: 100%;
+	}	
+
+
+	
+}

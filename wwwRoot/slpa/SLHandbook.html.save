@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<!-- THIS IS THE STAR LAKE HANDBOOK PAGE, UPDATED BY ANTHONY J -->
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" href="http://slpa.info/favicon.ico" type="image/x-icon">
+		<title>Star Lake Handbook</title>
+		<!-- CSS LINKS -->
+			<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- END CSS LINKS -->
+
+</head>
+
+<body>
+
+	<!--TOP MENU -->
+	<div id="heading">
+
+		<img src="index_files/StarLakeStar.png" alt="Logo" width="10%" height="10%"/>
+
+		<a href="index.html">
+				<img src="index_files/logo.png">
+		</a>
+
+	</div>
+
+	<!-- NAV MENU -->
+	<div class="menu">
+		<ul>
+					<li>
+						<a class="button" href="index.html">Home</a>
+					</li>
+					<li>
+						<a class="button" href="aboutSLPA.html">SLPA</a>
+					</li>
+					<li>
+						<a class="button" href="about_website.html">About</a>
+					</li>
+					<li>
+						<a class="button" href="recent_meetings.html">Meetings</a>
+					</li>
+					<li>
+						<a class="button" id="active" href="SLHandbook.html">Handbook</a>
+					</li>
+					<li>
+						<a class="button" href="photo.html">Gallery</a>
+					</li>
+					<li>
+						<a class="button" href="Rules_of_lake.html">Rules</a>
+					</li>
+					<li>
+						<a class="button" href="favorite.html">Links</a>
+					</li>
+					<li>
+						<a class="button" href="feedback.html">Feedback</a>
+					</li>
+					<li>
+						<a class="buttom" href="../index.html">Camera</a>
+					</li>                                        <li>
+                                                <a class="buttom" href="../index.html">Camera</a>
+                                        </li>
+
+		</ul>
+	</div>
+
+	<div class="para">
+
+		<a href="http://slpa.info/SLHandbook/slhcover.htm">
+		<img src="index_files/SLHandbook09lowres.jpg" align="right" width="223" height="297"></a>
+		<h2>2009 Star Lake Handbook On-line</h2>
+		<ul>
+			<li>
+				<a href="http://slpa.info/SLHandbook/slhcover.htm">Cover,Foreword, Table of Contents, Credits and Acknowledgements</a>
+			</li>
+			<li>
+				<a href="http://slpa.info/SLHandbook/slpahistory.htm">The Star Lake Protective Association</a>
+			</li>
+			<li>
+				<a href="http://slpa.info/SLHandbook/lakehistory.htm">A Short History of Star Lake</a>
+			</li>
+			<li>
+				<a href="http://slpa.info/SLHandbook/protect.htm">Let's Protect the Lake</a>
+			</li>
+			<li>
+				<a href="http://slpa.info/SLHandbook/boating.htm">Boating on Star Lake</a>
+			</li>
+			<li>
+				<a href="http://slpa.info/SLHandbook/map.htm">Star Lake Map and Owners Directory</a>
+			</li>
+			<li>
+				<a href="http://slpa.info/SLHandbook/slmean2me.htm">What Does Star Lake Mean to You?</a>
+			</li>
+			<li>
+				<a href="http://slpa.info/SLHandbook/peace.htm">Let's Help to Keep the Peace</a>
+			</li>
+			<li>
+				<a href="http://slpa.info/SLHandbook/fishing.htm">Fishing on Star Lake</a>
+			</li>
+			<li>
+				<a href="http://slpa.info/SLHandbook/fishguide.htm">Fish Spotter's Guide</a>
+			</li>
+			<li>
+				<a href="http://slpa.info/SLHandbook/backcover.htm">Back Cover Collage</a>
+			</li>
+		</ul>
+
+		<b>History of the <i>Star Lake Handbook</i> </b>
+
+		<p>The first Star Lake Handbook was created
+		and printed in 1995. John Sayles did most of the research and writing
+		while Roy Djuvik created the map and lot data to identify who lived
+		where. Peter Kress aided in the printing and the Handbook was distributed to Star
+		Lake Protective Association members and others who expressed an
+		interest. The <a href="http://slpa.info/SLHandbook/SLHandbook95Letter.pdf">cover letter</a>
+		that was distributed with the 1995 <i>Handbook</i> describes the original objectives of the <i>Handbook</i>: "to provide information
+		about our lake; to promote understanding and tolerance for the varied
+		uses and pleasures the lake provides each of us; and to encourage
+		protection and wise use of the lake."</p>
+		<p>An increasing number of requests for a revised Handbook finally led to the
+		second edition in 2004, reprinted in 2005. Roy, Peter and John spent countless hours
+		originating and publishing the first Handbook and it is out of respect for their efforts that I have
+		made my contributions. Much of the original text remains while other sections were edited and updated in the second edition. The map was
+		improved and the lake owner directories were updated to reflect new owners. Color photos and charts were added and the fish stocking
+		program was brought up-to-date. The fish spotters guide was completely revamped with color photos and descriptions of more fish found in Star
+		Lake. Existing sections were expanded and a new section seeking harmony within the lake community was added. Desktop publishing software
+		provided a professional look while condensing more information into a smaller package. In 2009, we ran out of copies of the
+		Handbook and reprinting became necessary. Much of the information was outdated. A new cover was
+		designed. Owner data and the fish stocking program were updated. Other
+		minor edits and revisions were made to bring us to this 2009 edition.
+		</p>
+		<p>I, too, have spent countless hours on
+		this project over the past five or six years; but it was a labor of love
+		devoted to the most wonderful lake in the world! I hope you enjoy the
+		2009
+		Star Lake Handbook in its
+		revised but hopefully not final edition. Bo Ritchings
+		</p>
+
+		<b> Ordering Information:</b>
+		<p>
+
+		You may order a printed copy of the <i>2009 Star Lake Handbook</i> by sending a money order made payable to the "<i>Star Lake
+		Protective Association</i>" to the address below.Handbooks cost $5.00
+		per copy for current members and $8.00 for non-members. Add the
+		appropriate postage and handling from the chart below. Be
+		sure to include your name and mailing address. Any questions, fill
+		out a <a href="http://slpa.info/feedback.htm">feedback form</a>. </p>
+
+			<table class="halfimg">
+				<tr>
+					<td bgcolor="#1F86FF"><b>Handbooks ordered:</b></td>
+					<td bgcolor="#1F86FF"><b>Postage/Handling</b></td>
+				</tr>
+				<tr>
+					<td align="center">1</td>
+					<td align="center">$2.50</td>
+				</tr>
+				<tr>
+					<td align="center">2</td>
+					<td align="center">$3.50</td>
+				</tr>
+				<tr>
+					<td align="center">3-5</td>
+					<td align="center">$4.10</td>
+				</tr>
+				</table>
+
+		<p class="halfimg" text-align:"center">
+		<b>Send the money order to:</b><br/>
+		Star Lake Protective Association<br/>
+		P. O. Box 279<br/>
+		Star Lake, NY 13690
+		</p>
+
+
+		<p><b>Updated Insert Available</b> If you have an
+		older copy of the <i>2nd edition Handbook</i>, we printed extra copies
+		of the middle sheet which contains the map on one side and the updated
+		owner directories on the other. This updated page can be inserted
+		into the middle of your older <i>Handbook</i>. These inserts are
+		available to current members, one per member, free of charge.
+		Others can purchase a copy of the insert for $2.00 per copy plus
+		postage and handling. Currently, the first insert's postage,
+		including the envelope will be $2.00. Each additional insert will
+		add $.50 postage (example: 3 inserts would cost $3.00 to ship).  </p>
+
+
+		<p>Copies of the <i>Handbook</i> and the insert can also be
+		obtained locally at the same price, minus the postage and handling. Contact the
+		SLPA secretary by filling out a <a href="feedback.html">feedback form</a>,
+		indicating when you will be here and what you would like to buy.</p>
+
+
+		<b>Fair and Legal Use:</b>
+		<p>The SLPA is a non-profit organization and uses <i>Handbook</i> proceeds to help defray
+		the costs of printing. Excess revenue from the sale of the <i>
+		Handbook</i>, if any, is deposited in the treasury to help finance lake
+		projects, activities and this web site. </p>
+		<p>The Star Lake Protective Association maintains all
+		proprietary and intellectual rights to the <i>Handbook </i>and all its
+		content including text, drawings, and photographs. Credit is cited
+		in the <i>Handbook</i> for copyrighted content included in the
+		<i>Handbook. </i></p>
+		<p>Specifically, <b>you may</b> read the <i>Handbook </i>
+		and share this link with others<i>. <b>You may not </b></i>sell
+		this document and <b><i>you may not</i></b> print the file or reproduce
+		the <i>Handbook</i> in any way for any reason. </p>
+		<p>Please play fair.</p>
+
+		<p><a href="http://slpa.info/SLHandbook/SLHandbook05.pdf">
+				<img id="moon" src="index_files/SLHandbook05.jpg" border="1" align="left" width="139" height="180"></a>
+		<b>The 2005<i> Star Lake Handbook-2nd Edition</i></b>
+		The<i><a href="index_files/SLHandbook05.pdf"> 2005 Star Lake Handbook</a></i>
+		is available in Adobe PDF format on-line. Click the picture or the link above and the <i>
+		Handbook </i>should start to download. It may take a minute or
+		two, depending on your connection speed. Just close the Acrobat
+		window or press the "back" button in your browser to return here. </p>
+		<p>You may need to have Adobe Acrobat installed in order to view the <i>
+		Handbook. </i>If you don't have Adobe Acrobat Reader, the download is free and can be obtained by following the link to
+		the Adobe download site at the bottom of this page. Directions are on the Adobe site.</p><br/><br/><br/>
+
+		<b>The 1995<i> Star Lake Handbook</i> </b>
+		<a href="index_files/SLHandbook95.pdf">
+		<img id="moon" src="index_files/SLHandbook95.jpg" border="1" align="left" width="140" height="194"></a>The
+		original <a href="http://slpa.info/SLHandbook/SLHandbook95.pdf">1995 <i>Star Lake Handbook</i></a>
+		is also available in Adobe PDF format on line. Click the picture or the link above and the <i>
+		Handbook </i>should start to download. It may take a minute or
+		two, depending on your connection speed. Just close the Acrobat
+		window or press the "back" button in your browser to return here. The
+		<a href="index_files/SLHandbook95Letter.pdf">cover letter</a>
+		from Roy Djuvik and John Sayles describes the original
+		objectives of the project and suggests some other areas to cover.
+		You must have Adobe Acrobat installed in order to view the <i>
+		Handbook. </i>
+		If you don't have Adobe Acrobat Reader,the download is free and can be obtained by following the link to
+		the Adobe download. Directions are on the Adobe site.<br/><br/><br/><br/>
+
+		<a href="http://www.adobe.com/products/reader/"><img src="index_files/get_adobe_reader.gif" width="112" height="39"></a>
+		Click on the image to download Acrobat Reader from the
+		<a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe</a>site.
+
+	</div>
+
+			<!--FOOTER -->
+			<div class="clr"/>
+			<div id="footer">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="aboutSLPA.html">About the SLPA</a>
+					</li>
+					<li>
+						<a href="about_website.html">About this Site</a>
+					</li>
+					<li>
+						<a href="recent_meetings.html">Recent Meetings</a>
+					</li>
+					<li>
+						Star Lake Handbook
+					</li>
+					<li>
+						<a href="photo.html">Photo Gallery</a>
+					</li>
+					<li>
+						<a href="Rules_of_lake.html">Rules of the Lake</a>
+					</li>
+					<li>
+						<a href="favorite.html">Links</a>
+					</li>
+					<li>
+						<a href="feedback.html">Feedback</a>
+					</li>
+				</ul>
+
+				<p align="center"><i><small>Site last updated
+				<!--webbot bot="Timestamp" s-type="EDITED" s-format="%m/%d/%y" startspan -->11/18/17<!--webbot bot="Timestamp" i-checksum="13303" endspan -->
+				Copyright 2007 by the Star Lake Protective Association. All rights
+				reserved by respective owners.</small></i></p>
+			<p><i><b>All photos </b>on this page and elsewhere on this site, unless otherwise noted, were taken by and belong to Bo
+			Ritchings, who maintains all proprietary rights to said photos. They
+			<b>may not</b>be used legally by anyone for any purpose, unless express permission is granted by the owner.</i>
+			</div>
+
+
+	</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "starlakecam",
+  "version": "1.0.0",
+  "description": "Server for taking pictures",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonyjim/starlakecam.git"
+  },
+  "author": "Anthony Jund <antonyjund@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonyjim/starlakecam/issues"
+  },
+  "homepage": "https://github.com/antonyjim/starlakecam#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

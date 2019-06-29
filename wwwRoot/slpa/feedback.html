@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<!-- THIS IS THE FEEDBACK PAGE, UPDATED BY ANTHONY J -->
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" href="http://slpa.info/favicon.ico" type="image/x-icon">
+		<title>Feedback</title>
+		<!-- CSS LINKS -->
+			<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- END CSS LINKS -->
+
+</head>
+
+<body>
+
+	<!--TOP MENU -->
+	<div id="heading">
+
+		<img src="index_files/StarLakeStar.png" alt="Logo" width="10%" height="10%"/>
+
+		<a href="index.html">
+				<img src="index_files/logo.png">
+		</a>
+
+	</div>
+
+	<!-- NAV MENU -->
+	<div class="menu">
+		<ul>
+					<li>
+						<a class="button" href="index.html">Home</a>
+					</li>
+					<li>
+						<a class="button" href="aboutSLPA.html">About</a>
+					</li>
+					<li>
+						<a class="button" href="recent_meetings.html">Meetings</a>
+					</li>
+					<li>
+						<a class="button" href="SLHandbook.html">Handbook</a>
+					</li>
+					<li>
+						<a class="button" href="photo.html">Gallery</a>
+					</li>
+					<li>
+						<a class="button" href="Rules_of_lake.html">Rules</a>
+					</li>
+					<li>
+						<a class="button" href="favorite.html">Links</a>
+					</li>
+					<li>
+						<a class="button" id="active" href="feedback.html">Feedback</a>
+					</li>
+					<li>
+						<a class="button" href="../index.html">Camera</a>
+					</li>
+		</ul>
+	</div>
+	<div class="para">
+			<h3><b>Send Us Your Feedback...</b></h3>
+
+		<ul>
+			<li>
+				<p >You can tell us what you think about our web site or report a problem;</p>
+			</li>
+
+			<li>
+				<p >You can request information about becoming a member or associate member of the SLPA;</p>
+			</li>
+
+			<li>
+				<p >If you are a member, you can request a username and password to access the Members' Area of this web site;</p>
+			</li>
+
+			<li>
+				<p >You can order a Star Lake Handbook</p>
+			</li>
+
+		</ul>
+		<h5>
+		Just fill out the appropriate information and click the "send
+		feedback" button below. You must fill out all fields.
+		You must also validate your message by filling in the Captcha box. You should see a confirmation message and
+		the data will be sent to us via e-mail. We will respond as soon as
+		possible. We welcome your comments and suggestions.</h5>
+		
+		<script>
+			$(function()
+{
+    $(".form").validate(
+      {
+        rules: 
+        {
+       	   name: 
+        	  {
+        	    required: true,
+        	    minlength:5
+        	  },
+	    email:
+       		   {
+        	    required: true,
+       		    email:true,
+		    minlength:10
+       		  },
+     	    message: 
+     		     {
+     		       rangelength:[50,1050]
+     		     }
+     		   }
+     	)};	
+});
+		</script>
+
+		<form class="form" name="productform" action="mail.php" method="POST">
+			<div class="format">
+					<label for='name'>Name: </label>
+					<input type="text" name="name">
+			</div>
+			<div class="format">
+				<label for='email'>e-Mail: </label>
+				<input type="text" name="email">
+			</div>
+			<div class="format">
+				<label for='message'>Message</label>
+				<textarea name="message"></textarea>
+			</div>
+			<input class="submit" type="submit" value="Submit" name="">
+		</form>
+</div>
+			<!--FOOTER -->
+			<div class="clr"></div>
+			<div id="footer">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="aboutSLPA.html">About the SLPA</a>
+					</li>
+					<li>
+						<a href="about_website.html">About this Site</a>
+					</li>
+					<li>
+						<a href="recent_meetings.html">Recent Meetings</a>
+					</li>
+					<li>
+						<a href="SLHandbook.html">Star Lake Handbook</a>
+					</li>
+					<li>
+						<a href="photo.html">Photo Gallery</a>
+					</li>
+					<li>
+						<a href="Rules_of_lake.html">Rules of the Lake</a>
+					</li>
+					<li>
+						<a href="favorite.html">Links</a>
+					</li>
+					<li>
+						Feedback
+					</li>
+				</ul>
+
+				<p align="center"><i><small>Site last updated
+				<!--webbot bot="Timestamp" s-type="EDITED" s-format="%m/%d/%y" startspan -->11/18/17<!--webbot bot="Timestamp" i-checksum="13303" endspan -->
+				Copyright 2007 by the Star Lake Protective Association. All rights
+				reserved by respective owners.</small></i></p>
+			<p><i><b>All photos </b>on this page and elsewhere on this site, unless otherwise noted, were taken by and belong to Bo
+			Ritchings, who maintains all proprietary rights to said photos. They
+			<b>may not</b>be used legally by anyone for any purpose, unless express permission is granted by the owner.</i>
+			</div>
+
+
+			</body>
+
+			</html>

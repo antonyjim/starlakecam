@@ -1,0 +1,359 @@
+/*Stylesheet for this stuff*/
+
+* {
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 24px;
+	text-decoration: none;
+	list-style: none;
+}
+
+a:visited {
+	color: #45563e;
+}
+
+a {
+	color: #45563e;
+}
+
+a:hover{
+	color: grey;
+}
+
+.clear {
+	clear:both;
+}
+
+.site-container {
+	width: 100%;
+	height: 100%;
+}
+
+.solid-background {
+	background-image: url('images/back.jpg');
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+}
+
+.static-background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.header-links-container {
+	position: relative;
+	top: 0;
+	background: rgb(63, 83, 95);
+	width: 100%;
+	height: 80px;
+	opacity: .8;
+	z-index: 999;
+}
+
+.title {
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px 50px;
+	position: relative;
+	float: left;
+	vertical-align: middle;
+	color: white;
+}
+
+.header-links {
+	position: relative;
+	float: right;
+	vertical-align: middle;
+}
+
+.nav-links {
+	margin: auto;
+	padding-top: 20px;
+	padding-right: 30px;
+}
+
+.nav-link {
+	position: relative;
+	float: right;
+	padding: 0  20px;
+	font-size: 23px;
+	padding: 5px 10px;
+	margin: 5px;
+	background: #488dc9;
+	border-radius: 7px;
+}
+
+.nav-link a {
+	color: #45563e;
+}
+
+.nav-link a:hover {
+	color: #22015d;
+}
+
+.nav-link a:visited {
+	color: #45563e;
+}
+
+.nav-link:hover {
+	background: #4480ba;
+	color: #d1d1d1;
+}
+
+.space {
+	height: 100px;
+	background: none;
+}
+
+.body-stripe {
+	background: #89a2ba;
+	position: static;
+	transform: skewY(2deg);
+	transform-origin: 100%;
+	z-index: 1;
+	overflow:visible;
+	margin-top: 80px;
+}
+
+.body-stripei {
+	background: #89a2ba;
+	position:static;
+	transform: skewY(-2deg);
+	transform-origin: 100%;
+	z-index: 1;
+	overflow:visible;
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+
+.body-cont {
+	width: 100%;
+	transform: skewY(-2deg);
+	padding: 30px 50px 45px 50px;
+	color: black;
+	position: relative;
+	float: none;
+	overflow:auto;
+}
+
+.body-text {
+	width: 40%;
+	position:relative;
+	float:left;
+}
+
+.body-title {
+	font-size: 40px;
+	color: #f6f6f6;
+	padding-bottom: 15px;
+}
+
+.main-info {
+	position: relative;
+	color: #f6f6f6;
+	float: left;
+	width: 100%;
+	padding-left: 20px;
+}
+
+.main-img {
+	width: 50%;
+	position: relative;
+	float: left;
+}
+
+.main-img img{
+	border-radius: 50%;
+	position: relative;
+	float: left;
+	
+}
+
+#webcam {
+	transition: 0.3s;
+	width: 100%;
+}
+
+#webcam:hover {
+	opacity: .7;
+	cursor: pointer;
+}
+
+.slideshow-stripe {
+	transform: skewY(2deg);
+	padding: 30px 0;
+}
+
+.timestamp {
+	float: right;
+	color: #ffffff;
+	text-shadow: #191919 1px 1px 2px;
+	box-shadow: 0 0 0 0 black;
+	font-size: .8em;
+	margin-top: 1em;
+}
+
+/*Modal*/
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgb(0,0,0,0.9);
+}
+
+.big_image {
+	margin: auto;
+	display: block;
+	width: 80%;
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+	from {-webkit-transform:scale(0)}
+	to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+	from {transform:scale(0)}
+	to {transfrom:scale(1)}
+}
+
+
+
+.close {
+	position: fixed;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*End modal*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+	border-radius: 7px;
+	width: 100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.active {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-device-width: 812px) {
+
+	.title {
+		padding: 20px 7px;
+		font-size: 25px;
+	}
+
+	.body-cont {padding: 20px 10px;}
+
+	.body-text {width:100%;}
+
+	.main-img {width: 100%;}
+
+	.main-info {
+		font-size: 23px;
+		line-height: 1.4em;
+	}
+
+	.solid-background {
+		background: url('images/smback.jpg');
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+	}
+}
